@@ -1,0 +1,7 @@
+create new repository
+git init
+git add README.md
+git add . 
+git commit -m "first commit" 
+git remote add origin your-repository-url.git --force 
+git push -u origin master
