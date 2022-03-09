@@ -4,4 +4,14 @@ git add README.md
 git add . 
 git commit -m "first commit" 
 git remote add origin your-repository-url.git --force 
+if ( add new branch ) {
+
+    git chechout -b nameOfBranch
+    // to chech the exist branch use =>
+       git btranch 
+    
+    // to add to the new barnch
+      git push -u origin nameOfBranch
+}
+
 git push -u origin master
