@@ -1,0 +1,63 @@
+/*--------------------------------------------------------------
+# phone_whatsapp_icon html
+--------------------------------------------------------------*/
+<div class="app-contact">
+        <a class="phone-app" href="tel:+971544446353" target="_blank">
+            <i class='bx bx-phone my-float'></i>
+        </a>
+        <a class="whats-app" href="https://api.whatsapp.com/send?phone=+971544446353&text=" target="_blank">
+            <i class='bx bxl-whatsapp my-float'></i>
+        </a>
+</div>
+
+/*--------------------------------------------------------------
+#  phone_whatsapp_icon css
+--------------------------------------------------------------*/
+
+.app-contact {
+    position: fixed;
+    width: 50px;
+    height: 100px;
+    bottom: 40px;
+    display: flex;
+    z-index: 115;
+    flex-direction: column;
+    left: 15px;
+}
+
+.phone-app ,.whats-app {
+  
+    text-align: center;
+    font-size: 30px;
+    transition: all .4s ease-in-out;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.phone-app {
+    background-color: #2E375F;
+    margin-bottom: 5px;
+}
+
+.whats-app {
+    background-color: #25d366;
+}
+
+.whats-app i, .phone-app i {
+    color: #f8f6f6be;
+    transition: all .4s ease-in-out;
+}
+
+.whats-app:hover i, .phone-app:hover i {
+    color: #FFFFFF;
+}
+
+.whats-app:hover , .phone-app:hover {
+    box-shadow: 2px 2px 3px #99999980;
+}
+
+
+.my-float {
+    margin-top: 11px;
+}
