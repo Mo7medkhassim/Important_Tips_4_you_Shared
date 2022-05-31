@@ -1,0 +1,16 @@
+# How to make the slick child elements in equal height
+
+.slick-track {
+    display: flex;
+}
+
+.slick-track .slick-slide {
+    display: flex;
+    height: auto;
+}
+
+.slick-slide .services-item {
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
