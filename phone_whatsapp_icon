@@ -2,11 +2,11 @@
 # phone_whatsapp_icon html
 --------------------------------------------------------------*/
 <div class="app-contact">
-        <a class="phone-app" href="tel:+971544446353" target="_blank">
-            <i class='bx bx-phone my-float'></i>
+        <a class="phone-app" href="tel:+971 54 444 6353">
+            <i class="bx bx-phone my-float"></i>
         </a>
-        <a class="whats-app" href="https://api.whatsapp.com/send?phone=+971544446353&text=" target="_blank">
-            <i class='bx bxl-whatsapp my-float'></i>
+        <a class="whats-app" href="https://wa.me/+971544446353?text=">
+            <i class="bx bxl-whatsapp my-float"></i>
         </a>
 </div>
 
